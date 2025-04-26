@@ -1,0 +1,39 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    color: white;
+    background: orange;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin: 4px auto;
+    padding: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.lista {
+    background-color: brown;
+    margin: 4px auto;
+    padding: 8px;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+li a {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-text-stroke: 1px black;
+}
